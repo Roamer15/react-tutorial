@@ -1,9 +1,11 @@
+import profilePic from '../public/vite.svg';
+
 function Card() {
     return (
         <div className="card">
-            <img src="../public/vite.svg" alt="random-image" />
-            <h2>Ian</h2>
-            <p>I am a student at rebase and i love video games</p>
+            <img className="card-image" src={profilePic} alt="random-image" />
+            <h2 className="card-title">Ian</h2>
+            <p className="card-description">I am a student at rebase and i love video games</p>
         </div>
     )
 }
