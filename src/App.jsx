@@ -1,17 +1,12 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx';
-import Food from './Food.jsx';
+import Lists from './Lists.jsx'
 
-function App() {
- 
-  return(
+function App () {
+  return (
     <>
-      <Header></Header>
-      <Food></Food>
-      <Footer></Footer>
+      <Lists />
     </>
- 
-  );
+
+  )
 }
 
 export default App
