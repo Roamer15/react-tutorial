@@ -1,13 +1,12 @@
-import UserGreeting from './UserGreeeting.jsx';
+import Lists from './Lists.jsx'
 
-function App() {
- 
-  return(
+function App () {
+  return (
     <>
-       <UserGreeting />
+      <Lists />
     </>
-  
-  );
+
+  )
 }
 
 export default App

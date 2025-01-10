@@ -1,7 +1,7 @@
-function Button() {
-    return(
-        <button className="button">Click me</button>
-    )
+function Button () {
+  return (
+    <button className='button'>Click me</button>
+  )
 }
 
-export default Button;
+export default Button
