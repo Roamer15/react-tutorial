@@ -1,17 +1,24 @@
-.welcome-message {
-  font-size: 2.5rem;
-  color: #fff;
-  background-color: #0ed970;
-  padding: 1rem;
+.list-category {
+  font-size: 2.5em;
+  color: #1010109c;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
   border-radius: 5px;
+  background-color: aqua;
+}
+
+.list-items li {
+  font-size: 2em;
+  list-style: none;
+  color: #16151596;
+  text-align: center;
   margin: 0;
 }
 
-.login-prompt {
-  font-size: 2.5rem;
-  color: #fff;
-  background-color: #d9410e;
-  padding: 1rem;
-  border-radius: 5px;
-  margin: 0;
+.list-items li:hover {
+  color: #161515c8;
+  transform: scale(1.05);
+  cursor: pointer;
 }

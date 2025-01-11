@@ -1,16 +1,17 @@
-function Lists(){
-    const fruits = [(name: 'apple', calories: 95)
-                    (name: 'banana', calories: 105)
-                    (name: 'cherry', calories: 90)
-                    (name: 'date', calories: 66)
-                    (name: 'elderberry', calories: 73)
-                    (name: 'fig', calories: 107)];
+function Lists(props){
+  
+    const category = props.category
+    const itemList = props.items
     
-    fruits.sort()
-
-    const listItems = fruits.map(fruit => <li key={fruit.name}>{fruit.name}</li>)
+    const listItems = itemList.map(item => <li key={item.id}>
+                                          {item.name}: &nbsp;
+                                          <b>{item.calories}</b>
+                                          </li>)
     return (
-        <ol>{listItems}</ol>
+        <>
+          <h3 className="list-category">{category}</h3>
+          <ol className="list-items">{listItems}</ol>
+        </>
     )
 }
 
